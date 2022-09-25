@@ -1,0 +1,32 @@
+{
+    "links": [
+        {
+            "label": "Anasayfa",
+            "href": "/anasayfa"
+        },
+        {
+            "label": "Kurumsal",
+            "href": "/kurumsal"
+        },
+        {
+            "label": "Sürdürülebilirlik",
+            "href": "/surdurulebilirlik"
+        },
+        {
+            "label": "İletişim",
+            "href": "/iletisim"
+        },
+        {
+            "label": "dropdown",
+            "href": "/dropdown"
+        }
+    ]
+}
+
+ 
+
+ 
+
+ 
+
+ 
