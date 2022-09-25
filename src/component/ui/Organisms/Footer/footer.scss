@@ -1,0 +1,112 @@
+@import '../../../../style/Variables/variables.scss';
+
+.footer {
+    background-color: $dark-blue;
+    height: 56vh;
+
+    .x {
+        display: flex;
+        gap: 15px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        padding-top: 65px;
+
+        >* {
+            width: 20%;
+            flex-direction: column;
+
+            display: flex;
+        }
+
+        .footer-col {
+
+            .top {
+                display: flex;
+                gap: 15px;
+                flex-direction: column;
+                flex-wrap: wrap;
+
+                .logo {
+                    img {
+                        width: 75%;
+                    }
+
+
+                }
+
+                .summary {
+                    p {
+                        line-height: 2em;
+                        font: 1rem sans-serif;
+                        color: white;
+                    }
+                }
+
+
+            }
+
+            .social-buttons {
+                display: flex;
+                gap: 1rem;
+            }
+
+        }
+
+        .quick-access {
+            .title {
+                h1 {
+                    font-size: 26px;
+                    font-weight: 700;
+                    color: white;
+                }
+            }
+
+            .links {
+                ul {
+                    padding-left: 1rem;
+                    margin-top: 20px;
+
+                    li {
+                        color: white;
+                        font-size: 20px;
+                        list-style-type: disc;
+                        margin-bottom: 8px;
+                        display: flex;
+                   
+                        
+                    }
+                }
+            }
+        }
+        .contact{
+            .title {
+                h1 {
+                    font-size: 26px;
+                    font-weight: 700;
+                    color: white;
+                }
+                
+            }
+            .links {
+                ul {
+                    margin-top: 20px;
+
+                    li {
+                        color: white;
+                        font-size: 20px;
+                        
+                        margin-bottom: 3rem;
+                        display: flex;
+                        align-items: center;
+                      
+                        .text{
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
