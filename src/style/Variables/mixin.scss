@@ -1,0 +1,23 @@
+@mixin rounded-corner($arc) {
+    -moz-border-radius: $arc;
+    -webkit-border-radius: $arc;
+    border-radius: $arc;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@mixin reset-tag {
+    margin: 0;
+    padding: 0;
+   
+}

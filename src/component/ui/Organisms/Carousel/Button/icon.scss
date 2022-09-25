@@ -1,0 +1,27 @@
+.arrow {
+
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+
+    color: white;
+
+
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    height: 20px;
+    width: 20px;
+
+    &.prev {
+        transform: rotate(-235deg);
+        align-items: flex-end;
+    }
+
+    &.next {
+        transform: rotate(-45deg);
+       
+
+    }
+
+}

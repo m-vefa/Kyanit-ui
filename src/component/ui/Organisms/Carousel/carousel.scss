@@ -1,0 +1,48 @@
+@import '../../../../style/Variables/variables.scss';
+@import '../../../../style/Variables/mixin.scss';
+
+.carousel-section {
+
+  background-color: $dark-blue;
+  color: $white-color;
+
+  width: 100%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  .carousel-container {
+    flex-basis: 100%;
+  }
+
+  .left-btn {
+    
+    flex: 0 0 100px ;//grow shrink basis
+  display: flex;
+  justify-content: flex-end;
+
+ 
+  }
+
+  .right-btn {
+    flex: 0 0 100px ;//grow shrink basis
+
+  display: flex;
+  justify-content: flex-start;
+
+  
+  }
+
+
+  &:hover {
+
+    .right,
+    .left {
+      .arrow {
+        display: block;
+      }
+
+    }
+  }
+}
